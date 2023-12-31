@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="Responsive css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navber" class="navigation">
+        <div class="navbody">
+            <div class="container">
+                <div class="topnavber">
+                    <!--Logo etc-->
+                    <a href="#">
+                        <img class="logo-img" src="imgs/logo-white.png">
+                    </a>
+    
+                    <!--Menu-->
+                    <div class="navbar-collapse">
+                        <a class="nav-link active" href="#home">Home</a>
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#team">Team</a>
+                        <a class="nav-link" href="#work">Work</a>
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+    
+                    <!--Toggle button (sidemenu-bar)-->
+                    <div class="sidemenu-btn" id="SidemenuBtn">
+                       <span></span>
+                       <span class="smbc"></span>
+                       <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="main-content">
+        <section id="home" class="">
+            <div class="banar">
+                <div class="banar-content">
+                    <p>Creative Onepage</p>
+                    <h1>website</h1>
+                    <a class="banar-btn" href="#"> Getting Start </a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="">
+            <div class="container">
+                <div class="Basic-info">
+                    <div class="info-title">
+                        <h6 class="sub-title">Basic info about componay</h6>
+                        <h2 class="title">Wexim - A Creative Design Agency in NewYork, USA</h2>
+                    </div>
+                    <div class="info-text">
+                        <p class="title-text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. <br> <br> Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. </p>
+                    </div>
+                </div>
+                <div class="feature-box-wrap">
+                    <div class="feature-box">
+                        <span>01.</span>
+                        <h6>Website Design</h6>
+                        <p>Lorem ipsum dolor amet, consectetur adipiscing elit augue diam, accumsan ipsum dolor sit amet, consectetur adipiscing.</p>
+                    </div>
+                    <div class="feature-box">
+                        <span>02.</span>
+                        <h6>Website Development</h6>
+                        <p>Lorem ipsum dolor amet, consectetur adipiscing elit augue diam, accumsan ipsum dolor sit amet, consectetur adipiscing.</p>
+                    </div>
+                    <div class="feature-box">
+                        <span>03.</span>
+                        <h6>Project Management</h6>
+                        <p>Lorem ipsum dolor amet, consectetur adipiscing elit augue diam, accumsan ipsum dolor sit amet, consectetur adipiscing.</p>
+                    </div>
+                </div>
+                <div class="laptopslid">
+                    <img class="laptop-img" src="imgs/laptop-img.png">
+                    <div class="laptop-img-slide">
+                        <div class="swiper laptopSwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img src="imgs/laptop-slide-img1.jpg">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="imgs/laptop-slide-img2.jpg">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="imgs/laptop-slide-img3.jpg">
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="team" class="">
+            <div class="container">
+                <div class="top-title">
+                    <h6 class="sub-title">Basic info about componay</h6>
+                    <h2 class="title">Creative Heads</h2>
+                    <p class="title-text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. </p>
+                </div>
+                <div class="team-slider">
+                    <div class="swiper teamSwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="team-box">
+                                <div class="team-imgs">
+                                    <img src="imgs/team-img1.jpg">
+                                    <div class="team-overlay">
+                                        <ul class="team-social">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="team-text">
+                                    <h5>Alex Walkin</h5>
+                                    <span>Owner / Co-founder</span>
+                                </div>
+                                <div class="team-progress">
+                                    <div class="progress-item">
+                                        <div class="progress-title">
+                                            <h5>Project Management</h5>
+                                            <span>90%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-item">
+                                        <div class="progress-title">
+                                            <h5>Web Consulting</h5>
+                                            <span>75%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="team-box">
+                                <div class="team-imgs">
+                                    <img src="imgs/team-img2.jpg">
+                                    <div class="team-overlay">
+                                        <ul class="team-social">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="team-text">
+                                    <h5>Teena Jhon</h5>
+                                    <span>Lead Designer</span>
+                                </div>
+                                <div class="team-progress">
+                                    <div class="progress-item">
+                                        <div class="progress-title">
+                                            <h5>Web Designing</h5>
+                                            <span>75%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-item">
+                                        <div class="progress-title">
+                                            <h5>Print Media</h5>
+                                            <span>90%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="team-box">
+                                <div class="team-imgs">
+                                    <img src="imgs/team-img3.jpg">
+                                    <div class="team-overlay">
+                                        <ul class="team-social">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="team-text">
+                                    <h5>David Warrior</h5>
+                                    <span>Marketing Head</span>
+                                </div>
+                                <div class="team-progress">
+                                    <div class="progress-item">
+                                        <div class="progress-title">
+                                            <h5>Marketing Online</h5>
+                                            <span>80%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-item">
+                                        <div class="progress-title">
+                                            <h5>SEO Services</h5>
+                                            <span>70%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="team-box">
+                                <div class="team-imgs">
+                                    <img src="imgs/team-img1.jpg">
+                                    <div class="team-overlay">
+                                        <ul class="team-social">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="team-text">
+                                    <h5></h5>
+                                    <span></span>
+                                </div>
+                                <div class="team-progress">
+                                    <div class="progress-item">
+                                        <div class="progress-title">
+                                            <h5></h5>
+                                            <span></span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-item">
+                                        <div class="progress-title">
+                                            <h5></h5>
+                                            <span></span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="team-box">
+                                <div class="team-imgs">
+                                    <img src="imgs/team-img1.jpg">
+                                    <div class="team-overlay">
+                                        <ul class="team-social">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="team-text">
+                                    <h5></h5>
+                                    <span></span>
+                                </div>
+                                <div class="team-progress">
+                                    <div class="progress-item">
+                                        <div class="progress-title">
+                                            <h5></h5>
+                                            <span></span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-item">
+                                        <div class="progress-title">
+                                            <h5></h5>
+                                            <span></span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="work" class="">
+            <h1>Contact</h1>
+        </section>
+        <section id="pricing" class="">
+            <h1>Gallery</h1>
+        </section>
+        <section id="blog" class="">
+            <h1>Gallery</h1>
+        </section>
+        <section id="contact" class="">
+            <h1>Gallery</h1>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
