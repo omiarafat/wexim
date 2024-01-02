@@ -452,3 +452,138 @@ body {
 .seo {
 	width: 70%;
 }
+
+
+
+#work {
+	padding: 120px 0px;
+}
+#work .title {
+	color: #2B2B2B;
+}
+.filter-menu {
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+}
+.filter-menu-item {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 32px;
+	padding: 10px 0px;
+	margin: 10px 4px 6px;
+	color: #333333;
+	cursor: pointer;
+	font-family: 'poppins', sans-serif;
+	transition: all .2s ease-in-out;
+}
+.filter-menu span {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 26px;
+	color: #2B2B2B;
+}
+.items-top {
+	display: flex;
+}
+.items-left {
+	width: 50%;
+	display: flex;
+}
+.items-right {
+	width: 50%;
+}
+.items-end {
+	display: flex;
+}
+.items-end-left {
+	width: 50%;
+}
+.items-end-right {
+	width: 50%;
+}
+.right-end-rapping {
+	display: flex;
+}
+.items-img {
+	overflow: hidden;
+	height: auto;
+	position: relative;
+}
+.items-imghover {
+	display: block;
+	height: auto;
+	transition: ease-in-out 0.2s;
+}
+.items-img:hover .items-imghover {
+	transform: scale(1.25);
+}
+.items-img:hover .items-body {
+	visibility: visible;
+	opacity: 1;
+}
+.img-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background: linear-gradient(to right, #acacac 2%, #919191 82%);
+	opacity: 0.7;
+}
+.items-body {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
+  	opacity: 0;
+	transition: ease-in-out 0.2s;
+}
+.plus {
+	position: relative;
+	height: 70px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	margin-bottom: 16px;
+	display: flex;
+	justify-content: center;
+}
+.plus::before {
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 2px;
+	background: #fff;
+	left: 50%;
+}
+.plus::after {
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 70px;
+	background: #fff;
+	top: 50%;
+}
+.items-body h5 {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #fff;
+	font-family: 'poppins', sans-serif;
+	margin-bottom: 4px;
+}
+.items-body p {
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 26px;
+	color: #fff;
+}
+.body-content {
+	position: absolute;
+}
