@@ -833,6 +833,7 @@ body {
 	margin: 2px 3px !important;
 	position: relative !important;
 	background: #e2dada !important;
+	opacity: 1 !important;
 }
 .swiper-pagination-bullet::after {
 	position: absolute;
@@ -845,6 +846,10 @@ body {
 	transform: translate3d(0, 100%, 0);
 	visibility: hidden;
 	transition: ease-in-out 0.2s;
+}
+.swiper-pagination-bullet:hover::after {
+	transform: translate3d(0, 0, 0);
+	visibility: visible;
 }
 .swiper-pagination-bullet-active::after {
 	transform: translate3d(0, 0, 0);
