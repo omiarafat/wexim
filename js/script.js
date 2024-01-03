@@ -81,7 +81,7 @@
     });
 
 
-    var swiper = new Swiper(".mySwiper", {
+    var swiper = new Swiper(".testimonialSlide", {
       spaceBetween: 30,
       pagination: {
         el: ".swiper-pagination",
