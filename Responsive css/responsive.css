@@ -3,3 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* pc-1920, laptop-1366, pad-900, mobil-600 */
+
+@media only screen and (max-width: 1920px) {
+
+}

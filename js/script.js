@@ -78,6 +78,20 @@
         el: ".swiper-pagination",
         clickable: true,
       },
+      breakpoints: {
+        810: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        },
+        500: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        },
+        375: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+          },
+    },
     });
 
 
@@ -88,3 +102,30 @@
         clickable: true,
       },
     });
+
+    // count js
+    $(document).ready(function() {
+
+      var counters = $(".count");
+      var countersQuantity = counters.length;
+      var counter = [];
+    
+      for (i = 0; i < countersQuantity; i++) {
+        counter[i] = parseInt(counters[i].innerHTML);
+      }
+    
+      var count = function(start, value, id) {
+        var localStart = start;
+        setInterval(function() {
+          if (localStart < value) {
+            localStart++;
+            counters[id].innerHTML = localStart;
+          }
+        }, 0.2);
+      }
+    
+      for (j = 0; j < countersQuantity; j++) {
+        count(25, counter[j], j);
+      }
+    });
+    // count js end
