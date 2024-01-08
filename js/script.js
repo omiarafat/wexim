@@ -1,7 +1,13 @@
 
 
+    // <--------navbar-------->
 
-    // Get all sections that have an ID defined
+
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+        // Get all sections that have an ID defined
     const sections = document.querySelectorAll("section[id]");
 
     // Add an event listener listening for scroll
@@ -15,9 +21,7 @@
       // Now we loop through sections to get height, top and ID values for each
       sections.forEach(current => {
         const sectionHeight = current.offsetHeight;
-      
-      
-        const sectionTop = (current.getBoundingClientRect().top + window.pageYOffset) - 50;
+        const sectionTop = current.offsetTop - 50;
         sectionId = current.getAttribute("id");
         
         /*
@@ -34,22 +38,33 @@
         }
       });
     }
-        window.onscroll = function() {scrollFunction()};
+  let sidebar = document.querySelector('.mobmenu');
+  let sidebarTrigger = document.querySelector('.sidemenu-btn');
+  let overlay = document.querySelector('.body-overlay');
+  let closbtn = document.querySelector('.clos-btn');
+  let navlink = document.querySelector('.nav-link');
 
-    function scrollFunction() {
-      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("navber").style.background = "#acacac";
-        document.getElementById("navber").style.height = "70px";
-        document.getElementById("navber").style.animation = "stickySlideDown 0.65s cubic-bezier(.23,1,.32,1) both";
-      } else {
-        document.getElementById("navber").style.background = "transparent";
-        document.getElementById("navber").style.height = "90px";
-        document.getElementById("navber").style.animation = "stickySlideUp 0.65s cubic-bezier(.23,1,.32,1) both";
-      }
-    }
+  sidebarTrigger.addEventListener('click', function () {
 
+      sidebar.classList.add('open-menu');
+      overlay.classList.add('show');
+  });
 
+  closbtn.addEventListener('click', function () {
 
+      sidebarTrigger.classList.remove('open-menu');
+      sidebar.classList.remove('open-menu');
+      overlay.classList.remove('show');
+  });
+
+  overlay.addEventListener('click', function () {
+
+      sidebarTrigger.classList.remove('open-menu');
+      sidebar.classList.remove('open-menu');
+      overlay.classList.remove('show');
+  });
+
+    // <--------navbar end-------->
 
     var swiper = new Swiper(".laptopSwiper", {
       spaceBetween: 30,
@@ -72,25 +87,21 @@
 
 
     var swiper = new Swiper(".teamSwiper", {
-      slidesPerView: 3,
+      slidesPerView: 1,
       spaceBetween: 20,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
       breakpoints: {
-        810: {
-        slidesPerView: 3,
-        spaceBetween: 20,
-        },
-        500: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        },
-        375: {
-          slidesPerView: 1,
+        1024: {
+          slidesPerView: 3,
           spaceBetween: 20,
-          },
+        },
+        809: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
     },
     });
 
@@ -102,6 +113,7 @@
         clickable: true,
       },
     });
+    
 
     // count js
     $(document).ready(function() {
@@ -129,3 +141,5 @@
       }
     });
     // count js end
+
+
