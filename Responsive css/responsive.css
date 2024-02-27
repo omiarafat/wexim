@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+/* <--------------- lap-1366 ---------------> */
+
+@media only screen and (max-width: 1366px) {
+    .banar-content h1 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .banar-content p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    
+}
+
+
 /* <--------------- pad-900 ---------------> */
 
 @media only screen and (max-width: 900px) {
@@ -16,6 +31,7 @@
     .sidemenu-btn {
         right: 0;
         margin-right: 0;
+        position: relative;
     }
     .clos-btn {
         right: 15px;
@@ -24,16 +40,17 @@
         margin-top: 91px;
     }
     .banar-content h1 {
-        font-size: 47px;
-        line-height: 47px;
+        font-size: 42px;
+        line-height: 42px;
     }
     .banar-content p {
-        font-size: 13px;
-        line-height: 13px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 13px;
     }
     .banar-btn {
-        font-size: 13px;
-        line-height: 23px;
+        font-size: 12px;
+        line-height: 21px;
         padding: 8px 32px;
         margin-top: 9px;
     }
@@ -124,6 +141,12 @@
     .sidemenu-btn {
         right: 0;
         margin-right: 0;
+    }
+    .mobmenu {
+        width: 100%;
+    }
+    .side-navbar {
+        margin-top: 20px;
     }
     .banar-content p {
         font-size: 11px;

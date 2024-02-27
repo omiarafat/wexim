@@ -125,7 +125,6 @@ body {
     display: flex;
 	align-items: center;
 	justify-content: space-between;
-	position: relative;
 }
 
 
@@ -286,7 +285,7 @@ body {
 .sidemenu-btn {
 	position: absolute;
 	width: 36px;
-	right: -58.5px;
+	right: 15px;
 	margin-right: 16px;
 	padding: 6px;
 	height: 26px;
@@ -308,18 +307,18 @@ body {
 	align-items: center;
 }
 .banar-content p {
-	font-size: 19px;
+	font-size: 25px;
 	font-weight: 300;
-	line-height: 15px;
+	line-height: 20px;
 	color: white;
 	font-family: 'Poppins', sans-serif;
-	margin-bottom: 16px;
+	margin-bottom: 22px;
 }
 .banar-content h1 {
 	font-family: 'Poppins', sans-serif;
-	font-size: 75px;
+	font-size: 100px;
 	font-weight: 600;
-	line-height: 75px;
+	line-height: 100px;
 	color: white;
 	text-transform: capitalize;
 }
@@ -329,17 +328,17 @@ body {
 	top: 14.5px;
 }
 .banar-btn {
-	font-size: 11px;
+	font-size: 14px;
 	font-weight: 500;
-	line-height: 19px;
-	padding: 7px 26px;
+	line-height: 25px;
+	padding: 9px 34px;
 	font-family: 'Poppins', sans-serif;
 	background: #313131;
 	color: white;
 	border: 2px solid #313131;
 	border-radius: 50px;
 	display: inline-block;
-	margin-top: 23px;
+	margin-top: 32px;
 	transition: all 0.3s;
 	text-transform: capitalize;
 }

@@ -2,7 +2,6 @@
 
     // <--------navbar-------->
 
-
     window.addEventListener("scroll", function () {
       var header = document.querySelector("header");
       header.classList.toggle("sticky", window.scrollY > 0);
@@ -63,7 +62,6 @@
       sidebar.classList.remove('open-menu');
       overlay.classList.remove('show');
   });
-
     // <--------navbar end-------->
 
     var swiper = new Swiper(".laptopSwiper", {
