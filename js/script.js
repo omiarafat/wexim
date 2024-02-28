@@ -1,5 +1,7 @@
 
 
+new WOW().init();
+
     // <--------navbar-------->
 
     window.addEventListener("scroll", function () {

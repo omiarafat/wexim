@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="Responsive css/responsive.css">
     <title>Wexim</title>
@@ -74,8 +76,8 @@
             <div class="banar">
                 <div class="banar-content">
                     <p>Creative Onepage</p>
-                    <h1>website</h1>
-                    <a class="banar-btn" href="#"> Getting Start </a>
+                    <h1 class="wow animate__fadeIn" data-wow-delay="1s">website</h1>
+                    <a class="wow animate__fadeInUp banar-btn" data-wow-delay="2s" href="#"> Getting Start </a>
                 </div>
             </div>
         </section>
@@ -91,23 +93,23 @@
                     </div>
                 </div>
                 <div class="feature-box-wrap">
-                    <div class="feature-box">
+                    <div class="wow animate__slideInLeft feature-box">
                         <span>01.</span>
                         <h6>Website Design</h6>
                         <p>Lorem ipsum dolor amet, consectetur adipiscing elit augue diam, accumsan ipsum dolor sit amet, consectetur adipiscing.</p>
                     </div>
-                    <div class="feature-box">
+                    <div class="wow animate__slideInUp feature-box">
                         <span>02.</span>
                         <h6>Website Development</h6>
                         <p>Lorem ipsum dolor amet, consectetur adipiscing elit augue diam, accumsan ipsum dolor sit amet, consectetur adipiscing.</p>
                     </div>
-                    <div class="feature-box">
+                    <div class="wow animate__slideInRight feature-box">
                         <span>03.</span>
                         <h6>Project Management</h6>
                         <p>Lorem ipsum dolor amet, consectetur adipiscing elit augue diam, accumsan ipsum dolor sit amet, consectetur adipiscing.</p>
                     </div>
                 </div>
-                <div class="laptopslid">
+                <div class="wow animate__slideInUp laptopslid animatehide">
                     <img class="laptop-img" src="imgs/laptop-img.png">
                     <div class="laptop-img-slide">
                         <div class="swiper laptopSwiper">
@@ -134,7 +136,7 @@
                     <h2 class="title">Creative Heads</h2>
                     <p class="title-text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. </p>
                 </div>
-                <div class="team-slider">
+                <div class="wow animate__slideInUp team-slider">
                     <div class="swiper teamSwiper">
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
@@ -380,42 +382,31 @@
         <section id="work" class="">
             <div class="container">
                 <div class="Basic-info">
-                    <div class="info-title">
+                    <div class="wow slideInLeft info-title" data-wow-duration="1s">
                         <h6 class="sub-title">Latest design of our company</h6>
                         <h2 class="title">Creative Portfolio Designs</h2>
                     </div>
-                    <div class="info-text">
+                    <div class="wow slideInRight info-text" data-wow-duration="1s">
                         <p class="title-text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. <br> <br> Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. </p>
                     </div>
                 </div>
-                <ul class="filter-menu">
-                    <li class="filter-menu-item activ">All</li>
-                    <span>/</span>
-                    <li class="filter-menu-item">Graphic Design</li>
-                    <span>/</span>
-                    <li class="filter-menu-item">Web design</li>
-                    <span>/</span>
-                    <li class="filter-menu-item">SEO</li>
-                    <span>/</span>
-                    <li class="filter-menu-item">Marketing</li>
-                </ul>
-                <div class="filter-items">
-                    <div class="items-top">
-                        <div class="items-left">
-                            <div class="items-img">
-                                <img class="items-imghover" src="imgs/work-1.jpg">
-                                <div class="items-body">
-                                    <div class="img-overlay"></div>
-                                    <div class="body-content">
-                                        <span class="plus"></span>
-                                        <h5>Latest Work</h5>
-                                        <p>See Our Amazing Work</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
+                <div class="wow animate__slideInUp">
+                    <ul class="filter-menu">
+                        <li class="filter-menu-item activ">All</li>
+                        <span>/</span>
+                        <li class="filter-menu-item">Graphic Design</li>
+                        <span>/</span>
+                        <li class="filter-menu-item">Web design</li>
+                        <span>/</span>
+                        <li class="filter-menu-item">SEO</li>
+                        <span>/</span>
+                        <li class="filter-menu-item">Marketing</li>
+                    </ul>
+                    <div class="filter-items">
+                        <div class="items-top">
+                            <div class="items-left">
                                 <div class="items-img">
-                                    <img class="items-imghover" src="imgs/work-2.jpg">
+                                    <img class="items-imghover" src="imgs/work-1.jpg">
                                     <div class="items-body">
                                         <div class="img-overlay"></div>
                                         <div class="body-content">
@@ -425,8 +416,34 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div>
+                                    <div class="items-img">
+                                        <img class="items-imghover" src="imgs/work-2.jpg">
+                                        <div class="items-body">
+                                            <div class="img-overlay"></div>
+                                            <div class="body-content">
+                                                <span class="plus"></span>
+                                                <h5>Latest Work</h5>
+                                                <p>See Our Amazing Work</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="items-img">
+                                        <img class="items-imghover" src="imgs/work-3.jpg">
+                                        <div class="items-body">
+                                            <div class="img-overlay"></div>
+                                            <div class="body-content">
+                                                <span class="plus"></span>
+                                                <h5>Latest Work</h5>
+                                                <p>See Our Amazing Work</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items-right">
                                 <div class="items-img">
-                                    <img class="items-imghover" src="imgs/work-3.jpg">
+                                    <img class="items-imghover" src="imgs/work-4.jpg">
                                     <div class="items-body">
                                         <div class="img-overlay"></div>
                                         <div class="body-content">
@@ -438,73 +455,60 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="items-right">
-                            <div class="items-img">
-                                <img class="items-imghover" src="imgs/work-4.jpg">
-                                <div class="items-body">
-                                    <div class="img-overlay"></div>
-                                    <div class="body-content">
-                                        <span class="plus"></span>
-                                        <h5>Latest Work</h5>
-                                        <p>See Our Amazing Work</p>
+                        <div class="items-end">
+                            <div class="items-end-left">
+                                <div class="items-img">
+                                    <img class="items-imghover" src="imgs/work-5.jpg">
+                                    <div class="items-body">
+                                        <div class="img-overlay"></div>
+                                        <div class="body-content">
+                                            <span class="plus"></span>
+                                            <h5>Latest Work</h5>
+                                            <p>See Our Amazing Work</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items-end-right">
+                                <div class="items-img">
+                                    <img class="items-imghover" src="imgs/work-6.jpg">
+                                    <div class="items-body">
+                                        <div class="img-overlay"></div>
+                                        <div class="body-content">
+                                            <span class="plus"></span>
+                                            <h5>Latest Work</h5>
+                                            <p>See Our Amazing Work</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-end-rapping">
+                                    <div class="items-img">
+                                        <img class="items-imghover" src="imgs/work-7.jpg">
+                                        <div class="items-body">
+                                            <div class="img-overlay"></div>
+                                            <div class="body-content">
+                                                <span class="plus"></span>
+                                                <h5>Latest Work</h5>
+                                                <p>See Our Amazing Work</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="items-img">
+                                        <img class="items-imghover" src="imgs/work-8.jpg">
+                                        <div class="items-body">
+                                            <div class="img-overlay"></div>
+                                            <div class="body-content">
+                                                <span class="plus"></span>
+                                                <h5>Latest Work</h5>
+                                                <p>See Our Amazing Work</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
-                    <div class="items-end">
-                        <div class="items-end-left">
-                            <div class="items-img">
-                                <img class="items-imghover" src="imgs/work-5.jpg">
-                                <div class="items-body">
-                                    <div class="img-overlay"></div>
-                                    <div class="body-content">
-                                        <span class="plus"></span>
-                                        <h5>Latest Work</h5>
-                                        <p>See Our Amazing Work</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="items-end-right">
-                            <div class="items-img">
-                                <img class="items-imghover" src="imgs/work-6.jpg">
-                                <div class="items-body">
-                                    <div class="img-overlay"></div>
-                                    <div class="body-content">
-                                        <span class="plus"></span>
-                                        <h5>Latest Work</h5>
-                                        <p>See Our Amazing Work</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="right-end-rapping">
-                                <div class="items-img">
-                                    <img class="items-imghover" src="imgs/work-7.jpg">
-                                    <div class="items-body">
-                                        <div class="img-overlay"></div>
-                                        <div class="body-content">
-                                            <span class="plus"></span>
-                                            <h5>Latest Work</h5>
-                                            <p>See Our Amazing Work</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="items-img">
-                                    <img class="items-imghover" src="imgs/work-8.jpg">
-                                    <div class="items-body">
-                                        <div class="img-overlay"></div>
-                                        <div class="body-content">
-                                            <span class="plus"></span>
-                                            <h5>Latest Work</h5>
-                                            <p>See Our Amazing Work</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
                 </div>
             </div>
         </section>
@@ -515,72 +519,74 @@
                     <h2 class="title">Easy Pricing</h2>
                     <p class="title-text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
                 </div>
-                <div class="swiper teamSwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="pricing-box">
-                                <h4 class="price-title">Basic</h4>
-                                <div class="price-tag">
-                                    <div class="price">
-                                        <h4 class="currency"><span>$</span>29</h4>
-                                        <span class="month">MONTH</span>
+                <div class="wow animate__slideInUp">
+                    <div class="swiper teamSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="pricing-box">
+                                    <h4 class="price-title">Basic</h4>
+                                    <div class="price-tag">
+                                        <div class="price">
+                                            <h4 class="currency"><span>$</span>29</h4>
+                                            <span class="month">MONTH</span>
+                                        </div>
+                                        <p class="price-text">It has survived not only five centu but also the leap electronic.</p>
                                     </div>
-                                    <p class="price-text">It has survived not only five centu but also the leap electronic.</p>
+                                    <div class="packages">
+                                        <ul>
+                                            <li><i class="fa-solid fa-check"></i>Full access</li>
+                                            <li><i class="fa-solid fa-check"></i>Unlimited Bandwidth</li>
+                                            <li><i class="fa-solid fa-check"></i>Powerful Admin Panel</li>
+                                            <li><i class="fa-solid fa-xmark"></i>Email Accounts</li>
+                                            <li><i class="fa-solid fa-xmark"></i>8 Free Forks Every Months</li>
+                                        </ul>
+                                    </div>
+                                    <a class="price-btn" href="#">Buy Now</a>
                                 </div>
-                                <div class="packages">
-                                    <ul>
-                                        <li><i class="fa-solid fa-check"></i>Full access</li>
-                                        <li><i class="fa-solid fa-check"></i>Unlimited Bandwidth</li>
-                                        <li><i class="fa-solid fa-check"></i>Powerful Admin Panel</li>
-                                        <li><i class="fa-solid fa-xmark"></i>Email Accounts</li>
-                                        <li><i class="fa-solid fa-xmark"></i>8 Free Forks Every Months</li>
-                                    </ul>
-                                </div>
-                                <a class="price-btn" href="#">Buy Now</a>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="pricing-box">
-                                <h4 class="price-title color">Popular</h4>
-                                <div class="price-tag">
-                                    <div class="price">
-                                        <h4 class="currency"><span>$</span>49</h4>
-                                        <span class="month">MONTH</span>
+                            <div class="swiper-slide">
+                                <div class="pricing-box">
+                                    <h4 class="price-title color">Popular</h4>
+                                    <div class="price-tag">
+                                        <div class="price">
+                                            <h4 class="currency"><span>$</span>49</h4>
+                                            <span class="month">MONTH</span>
+                                        </div>
+                                        <p class="price-text">It has survived not only five centu but also the leap electronic.</p>
                                     </div>
-                                    <p class="price-text">It has survived not only five centu but also the leap electronic.</p>
+                                    <div class="packages">
+                                        <ul>
+                                            <li><i class="fa-solid fa-check"></i>Full access</li>
+                                            <li><i class="fa-solid fa-check"></i>Unlimited Bandwidth</li>
+                                            <li><i class="fa-solid fa-check"></i>Powerful Admin Panel</li>
+                                            <li><i class="fa-solid fa-check"></i>Email Accounts</li>
+                                            <li><i class="fa-solid fa-xmark"></i>8 Free Forks Every Months</li>
+                                        </ul>
+                                    </div>
+                                    <a class="price-btn back" href="#">Buy Now</a>
                                 </div>
-                                <div class="packages">
-                                    <ul>
-                                        <li><i class="fa-solid fa-check"></i>Full access</li>
-                                        <li><i class="fa-solid fa-check"></i>Unlimited Bandwidth</li>
-                                        <li><i class="fa-solid fa-check"></i>Powerful Admin Panel</li>
-                                        <li><i class="fa-solid fa-check"></i>Email Accounts</li>
-                                        <li><i class="fa-solid fa-xmark"></i>8 Free Forks Every Months</li>
-                                    </ul>
-                                </div>
-                                <a class="price-btn back" href="#">Buy Now</a>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="pricing-box">
-                                <h4 class="price-title">Advance</h4>
-                                <div class="price-tag">
-                                    <div class="price">
-                                        <h4 class="currency"><span>$</span>99</h4>
-                                        <span class="month">MONTH</span>
+                            <div class="swiper-slide">
+                                <div class="pricing-box">
+                                    <h4 class="price-title">Advance</h4>
+                                    <div class="price-tag">
+                                        <div class="price">
+                                            <h4 class="currency"><span>$</span>99</h4>
+                                            <span class="month">MONTH</span>
+                                        </div>
+                                        <p class="price-text">It has survived not only five centu but also the leap electronic.</p>
                                     </div>
-                                    <p class="price-text">It has survived not only five centu but also the leap electronic.</p>
+                                    <div class="packages">
+                                        <ul>
+                                            <li><i class="fa-solid fa-check"></i>Full access</li>
+                                            <li><i class="fa-solid fa-check"></i>Unlimited Bandwidth</li>
+                                            <li><i class="fa-solid fa-check"></i>Powerful Admin Panel</li>
+                                            <li><i class="fa-solid fa-check"></i>Email Accounts</li>
+                                            <li><i class="fa-solid fa-check"></i>8 Free Forks Every Months</li>
+                                        </ul>
+                                    </div>
+                                    <a class="price-btn" href="#">Buy Now</a>
                                 </div>
-                                <div class="packages">
-                                    <ul>
-                                        <li><i class="fa-solid fa-check"></i>Full access</li>
-                                        <li><i class="fa-solid fa-check"></i>Unlimited Bandwidth</li>
-                                        <li><i class="fa-solid fa-check"></i>Powerful Admin Panel</li>
-                                        <li><i class="fa-solid fa-check"></i>Email Accounts</li>
-                                        <li><i class="fa-solid fa-check"></i>8 Free Forks Every Months</li>
-                                    </ul>
-                                </div>
-                                <a class="price-btn" href="#">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -589,12 +595,12 @@
             <div id="content">
                 <div class="container">
                     <div class="content-wrapping">
-                        <div class="info-title">
+                        <div class="wow slideInLeft info-title">
                             <h6 class="sub-title">You can trust us</h6>
                             <h2 class="title">We Can <br> Make Your Design</h2>
                             <p class="title-text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitu eleifend in maximus metus sollicitudin.</p>
                         </div>
-                        <div class="content-img">
+                        <div class="wow slideInRight content-img">
                             <img src="imgs/phone.png">
                         </div>
                     </div>
@@ -673,7 +679,7 @@
                         <p class="title-text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
                     </div>
                     <div class="app-deatil">
-                        <div class="app-left">
+                        <div class="wow slideInLeft app-left">
                             <div class="app-feature app-top">
                                 <div class="app-icon">
                                     <i class="fa-regular fa-gem"></i>
@@ -707,7 +713,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="app-right">
+                        <div class="wow slideInRight app-right">
                             <div class="app-feature app-top">
                                 <div class="app-icon">
                                     <i class="fa-solid fa-code"></i>
@@ -730,7 +736,7 @@
         <section id="blog" class="">
             <div class="container">
                 <div class="blog-wrapping top-blog">
-                    <div class="blog-content">
+                    <div class="wow slideInRight blog-content">
                         <div class="blog-width">
                             <h6 class="sub-title">January 14, 2019</h6>
                             <h2 class="title">Living Your Dreams</h2>
@@ -738,14 +744,14 @@
                             <a class="price-btn" href="#">Learn More</a>
                         </div>
                     </div>
-                    <div class="blog-imgs">
+                    <div class="wow slideInLeft blog-imgs">
                         <div class="blog-width">
                             <img src="imgs/blog-image1.jpg">
                         </div>
                     </div>
                 </div>
                 <div class="blog-wrapping">
-                    <div class="blog-content">
+                    <div class="wow slideInLeft blog-content">
                         <div class="blog-width">
                             <h6 class="sub-title">August 20, 2019</h6>
                             <h2 class="title">Design Your Website</h2>
@@ -753,7 +759,7 @@
                             <a class="price-btn" href="#">Learn More</a>
                         </div>
                     </div>
-                    <div class="blog-imgs">
+                    <div class="wow slideInRight blog-imgs">
                         <div class="blog-width">
                             <img src="imgs/blog-image2.jpg">
                         </div>
@@ -765,7 +771,7 @@
             <div class="address">
                 <div class="address-box">
                     <div class="address-overlay"></div>
-                    <div class="address-content">
+                    <div class="wow animate__slideInUp address-content">
                         <h6 class="sub-title">Lorem ipsum dolor sit amet consectetur</h6>
                         <h2 class="title">Wexim Agency, Newyork</h2>
                         <p class="address-text">123 Stree New York City , United States Of America. </p>
@@ -881,14 +887,14 @@
             </section>
             <section id="footer">
                 <div class="container">
-                    <div class="footer-socil">
+                    <div class="footer-socil animatehide">
                         <ul>
-                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa-regular fa-envelope"></i></a></li>
+                            <li class="wow animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.3s"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="wow animate__slideInDown" data-wow-duration="1s"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="wow animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.3s"><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li class="wow animate__slideInDown" data-wow-duration="1s"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li class="wow animate__slideInUp" data-wow-duration="1s" data-wow-delay="0.3s"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="wow animate__slideInDown" data-wow-duration="1s"><a href="#"><i class="fa-regular fa-envelope"></i></a></li>
                         </ul>
                     </div>
                     <p class="footer-text">© 2021 Wexim. Made With Love By <a href="#">Themesindustry</a></p>
@@ -898,6 +904,7 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

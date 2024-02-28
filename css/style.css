@@ -15,6 +15,7 @@ body {
 	letter-spacing: 0.5px;
 	position: relative;
 	height: 100%;
+	overflow-x: hidden;
 }
 
 
@@ -40,7 +41,9 @@ body {
 	height: 100%;
 	object-fit: cover;
   }
-
+  .animatehide {
+	overflow: hidden;
+  }
 
   @keyframes stickySlideDown {
       0% {
@@ -245,6 +248,7 @@ body {
 	margin-left: auto;
     margin-right: -30px;
 	position: relative;
+	display: flex;
 }
 .menu-line {
 	position: absolute;
