@@ -332,6 +332,7 @@ body {
 
 #about {
 	padding: 120px 0px;
+	overflow: hidden;
 }
 .sub-title {
 	font-size: 16px;
@@ -428,6 +429,7 @@ body {
 #team {
 	background: #f8f9fa !important;
 	padding: 120px 0px;
+	overflow: hidden;
 }
 .top-title {
 	text-align: center;
@@ -595,6 +597,7 @@ body {
 
 #work {
 	padding: 120px 0px;
+	overflow: hidden;
 }
 #work .title {
 	color: #2B2B2B;
@@ -736,6 +739,7 @@ body {
 #pricing {
 	padding-top: 120px;
 	background: #f8f9fa;
+	overflow: hidden;
 }
 .pricing-box {
 	padding: 32px 21px;
@@ -1061,6 +1065,7 @@ body {
 #blog {
 	padding: 120px 0px;
 	background: #f8f9fa;
+	overflow: hidden;
 }
 .blog-wrapping {
 	display: flex;
