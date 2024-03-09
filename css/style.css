@@ -55,49 +55,26 @@ body {
       }
   }
 
- .nav-link:nth-child(1).active ~ .menu-line {
+ .nav-link:nth-child(1):hover ~ .menu-line, .nav-link:nth-child(1).active ~ .menu-line {
 	transform: translate3d(0, 0, 0);
   }
-  .nav-link:nth-child(2).active ~ .menu-line {
-	transform: translate3d(104.4%, 0, 0);
+ .nav-link:nth-child(2):hover ~ .menu-line, .nav-link:nth-child(2).active ~ .menu-line {
+	transform: translate3d(100.2%, 0, 0);
   }
-  .nav-link:nth-child(3).active ~ .menu-line {
-	transform: translate3d(208.4%, 0, 0);
+ .nav-link:nth-child(3):hover ~ .menu-line, .nav-link:nth-child(3).active ~ .menu-line {
+	transform: translate3d(200.2%, 0, 0);
   }
-  .nav-link:nth-child(4).active ~ .menu-line {
-	transform: translate3d(313%, 0, 0);
+ .nav-link:nth-child(4):hover ~ .menu-line, .nav-link:nth-child(4).active ~ .menu-line {
+	transform: translate3d(300.2%, 0, 0);
   }
-  .nav-link:nth-child(5).active ~ .menu-line {
-	transform: translate3d(418%, 0, 0);
+ .nav-link:nth-child(5):hover ~ .menu-line, .nav-link:nth-child(5).active ~ .menu-line {
+	transform: translate3d(400.2%, 0, 0);
   }
-  .nav-link:nth-child(6).active ~ .menu-line {
-	transform: translate3d(522%, 0, 0);
+ .nav-link:nth-child(6):hover ~ .menu-line, .nav-link:nth-child(6).active ~ .menu-line {
+	transform: translate3d(500.2%, 0, 0);
   }
-  .nav-link:nth-child(7).active ~ .menu-line {
-	transform: translate3d(626%, 0, 0);
-  }
-
-
- .nav-link:nth-child(1):hover ~ .menu-line {
-	transform: translate3d(0, 0, 0);
-  }
- .nav-link:nth-child(2):hover ~ .menu-line {
-	transform: translate3d(104.4%, 0, 0);
-  }
- .nav-link:nth-child(3):hover ~ .menu-line {
-	transform: translate3d(208.4%, 0, 0);
-  }
- .nav-link:nth-child(4):hover ~ .menu-line {
-	transform: translate3d(313%, 0, 0);
-  }
- .nav-link:nth-child(5):hover ~ .menu-line {
-	transform: translate3d(418%, 0, 0);
-  }
- .nav-link:nth-child(6):hover ~ .menu-line {
-	transform: translate3d(522%, 0, 0);
-  }
- .nav-link:nth-child(7):hover ~ .menu-line {
-	transform: translate3d(626%, 0, 0);
+ .nav-link:nth-child(7):hover ~ .menu-line, .nav-link:nth-child(7).active ~ .menu-line {
+	transform: translate3d(600.2%, 0, 0);
   }
 
 
