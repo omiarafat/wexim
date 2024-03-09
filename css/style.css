@@ -91,12 +91,6 @@ body {
 	z-index: 5;
 	padding: 8px 0px;
 }
-.navigation.sticky {
-	height: 70px;
-	background: linear-gradient(to right, #919191 2%, #acacac 82%);
-	animation: stickySlideDown 1s both;
-	box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
-}
 .navbody {
 	position: relative;
 	width: 100%;
@@ -1285,4 +1279,21 @@ body {
 }
 .footer-text a {
 	color: #6D6D6D;
+}
+
+
+#topArrow {
+	position: fixed;
+	width: 45px;
+	height: 45px;
+	line-height: 49px;
+	background: linear-gradient(to right, #acacac 0%, #919191 51%, #acacac 100%);
+	text-align: center;
+	border-radius: 100%;
+	font-size: 21px;
+	color: #fff;
+	bottom: 20px;
+	right: 20px;
+	cursor: pointer;
+	display: none;
 }
